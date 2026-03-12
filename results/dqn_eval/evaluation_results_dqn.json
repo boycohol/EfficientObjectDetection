@@ -1,0 +1,69 @@
+{
+    "method": "dqn",
+    "checkpoint": "checkpoints/dqn/best_model.pth",
+    "hyperparameters": {
+        "beta": 0.005,
+        "sigma": 0.02,
+        "img_size": 172
+    },
+    "trained_policy": {
+        "detection": {
+            "AP": 0.11412451720637992,
+            "AR": 0.16518163125428376,
+            "precision": 0.47944297082228116,
+            "recall": 0.16518163125428376,
+            "f1": 0.24570943075615967,
+            "num_detections": 1508,
+            "num_gt_objects": 4377
+        },
+        "policy": {
+            "mean_reward": 0.2046191692352295,
+            "mean_sparsity": 3.003303050994873,
+            "variance": 1.11858332157135,
+            "unique_policies": 123,
+            "hr_usage_percent": 33.370033264160156,
+            "lr_usage_percent": 66.62996673583984,
+            "mean_q_value": -0.0023941241670399904,
+            "q_value_std": 0.09385453164577484,
+            "q_positive_ratio": 33.370033264160156
+        }
+    },
+    "baseline_always_hr": {
+        "detection": {
+            "AP": 0.21718165880721907,
+            "AR": 0.28901073794836646,
+            "precision": 0.5284043441938179,
+            "recall": 0.28901073794836646,
+            "f1": 0.3736523408654555,
+            "num_detections": 2394,
+            "num_gt_objects": 4377
+        },
+        "policy": {
+            "mean_reward": 0.150945782661438,
+            "mean_sparsity": 9.0,
+            "variance": 0.0,
+            "unique_policies": 1,
+            "hr_usage_percent": 100.0,
+            "lr_usage_percent": 0.0
+        }
+    },
+    "baseline_always_lr": {
+        "detection": {
+            "AP": 0.0788592035308387,
+            "AR": 0.12291523874800091,
+            "precision": 0.4406224406224406,
+            "recall": 0.12291523874800091,
+            "f1": 0.19221150410861015,
+            "num_detections": 1221,
+            "num_gt_objects": 4377
+        },
+        "policy": {
+            "mean_reward": -0.13094578683376312,
+            "mean_sparsity": 0.0,
+            "variance": 0.0,
+            "unique_policies": 1,
+            "hr_usage_percent": 0.0,
+            "lr_usage_percent": 100.0
+        }
+    }
+}

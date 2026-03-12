@@ -1,0 +1,19 @@
+{
+    "detection": {
+        "AP": 0.12409175361843777,
+        "AR": 0.1745487777016221,
+        "precision": 0.4795982423101067,
+        "recall": 0.1745487777016221,
+        "f1": 0.25594639865996643,
+        "num_detections": 1593,
+        "num_gt_objects": 4377
+    },
+    "policy": {
+        "mean_reward": 0.20019836723804474,
+        "mean_sparsity": 2.0875308513641357,
+        "variance": 1.4856675863265991,
+        "unique_policies": 27,
+        "hr_usage_percent": 23.194786071777344,
+        "lr_usage_percent": 76.80520629882812
+    }
+}

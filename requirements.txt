@@ -1,0 +1,16 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+plotly
+jupyterlab
+notebook
+tqdm
+pillow
+opencv-python
+wandb
+huggingface_hub
+ultralytics
+datasets 

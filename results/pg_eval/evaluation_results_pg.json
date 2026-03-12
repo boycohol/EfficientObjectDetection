@@ -1,0 +1,68 @@
+{
+    "method": "pg",
+    "checkpoint": "checkpoints/policy_grad/best_model.pth",
+    "hyperparameters": {
+        "beta": 0.005,
+        "sigma": 0.02,
+        "img_size": 172
+    },
+    "trained_policy": {
+        "detection": {
+            "AP": 0.12025685006599827,
+            "AR": 0.17180717386337674,
+            "precision": 0.46795270690728064,
+            "recall": 0.17180717386337674,
+            "f1": 0.2513368983957219,
+            "num_detections": 1607,
+            "num_gt_objects": 4377
+        },
+        "policy": {
+            "mean_reward": 0.2003377377986908,
+            "mean_sparsity": 2.419487953186035,
+            "variance": 1.370558261871338,
+            "unique_policies": 47,
+            "hr_usage_percent": 26.88319969177246,
+            "lr_usage_percent": 73.11680603027344,
+            "mean_prob": 0.3213481903076172,
+            "prob_std": 0.36282914876937866
+        }
+    },
+    "baseline_always_hr": {
+        "detection": {
+            "AP": 0.21718165880721907,
+            "AR": 0.28901073794836646,
+            "precision": 0.5284043441938179,
+            "recall": 0.28901073794836646,
+            "f1": 0.3736523408654555,
+            "num_detections": 2394,
+            "num_gt_objects": 4377
+        },
+        "policy": {
+            "mean_reward": 0.150945782661438,
+            "mean_sparsity": 9.0,
+            "variance": 0.0,
+            "unique_policies": 1,
+            "hr_usage_percent": 100.0,
+            "lr_usage_percent": 0.0
+        }
+    },
+    "baseline_always_lr": {
+        "detection": {
+            "AP": 0.0788592035308387,
+            "AR": 0.12291523874800091,
+            "precision": 0.4406224406224406,
+            "recall": 0.12291523874800091,
+            "f1": 0.19221150410861015,
+            "num_detections": 1221,
+            "num_gt_objects": 4377
+        },
+        "policy": {
+            "mean_reward": -0.13094578683376312,
+            "mean_sparsity": 0.0,
+            "variance": 0.0,
+            "unique_policies": 1,
+            "hr_usage_percent": 0.0,
+            "lr_usage_percent": 100.0
+        }
+    }
+}
